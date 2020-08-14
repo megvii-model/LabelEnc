@@ -67,7 +67,7 @@ We provide the following trained LabelEnc models.
 |fcos_imprv_dcnv2_R_101_FPN_2x|43.5|45.8|[download](https://drive.google.com/file/d/18eSyziTdKXlwOoaPPhV374atnmWgx13I/view?usp=sharing)|
 |e2e_faster_rcnn_R_50_FPN_1x|36.8|38.6|[download](https://drive.google.com/file/d/1MsxibHuXrpRoGVZhDy2XokJc9oY_WUps/view?usp=sharing)|
 |e2e_faster_rcnn_R_101_FPN_1x|39.1|41.0|[download](https://drive.google.com/file/d/15j_7ltquUYP-7OKT1HwgW2zMbZPVu6_A/view?usp=sharing)|
-|e2e_dcnv2_faster_rcnn_R_101_FPN_2x|42.8|43.3|[download](https://drive.google.com/file/d/1t28rXVQIJ3XWX-LHqqknf_7QegROnZrI/view?usp=sharing)|
+|e2e_faster_rcnn_dcnv2_R_101_FPN_2x|42.8|43.3|[download](https://drive.google.com/file/d/1t28rXVQIJ3XWX-LHqqknf_7QegROnZrI/view?usp=sharing)|
 
 [1] `1x` and `2x` only notes the schedule for baseline models. LabelEnc models use `1x` in both steps.
 
