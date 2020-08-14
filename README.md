@@ -43,7 +43,7 @@ Note that:
 
 ### Training for Step2
 
-Use the following commands to train LabelEnc Step2 with retinanet_R-50-FPN_1x.yaml on 8 GPUs. Use `--labelenc` command to specify `label_encoding_function.pth` file. Take retinanet_R-50-FPN for example:
+Use the following commands to train LabelEnc Step2 with `retinanet_R-50-FPN_1x.yaml` on 8 GPUs. Use `--labelenc` command to specify `label_encoding_function.pth` file. Take retinanet_R-50-FPN for example:
 ```bash
 python -m torch.distributed.launch --nproc_per_node=8 \
     tools/train_labelenc_step2.py \
@@ -70,6 +70,7 @@ We provide the following trained LabelEnc models.
 |e2e_dcnv2_faster_rcnn_R_101_FPN_2x|42.8|43.3|[download](https://drive.google.com/file/d/1t28rXVQIJ3XWX-LHqqknf_7QegROnZrI/view?usp=sharing)|
 
 [1] `1x` and `2x` only notes the schedule for baseline models. LabelEnc models use `1x` in both steps.
+
 [2] We use `R_50` models in step1 for all models above, no matter their backbone in step2. For example, `retinanet_dcnv2_R-101-FPN` uses `label_encoding_function.pth` from `retinanet_R-50-FPN`.
 
 Links for step1 weights, i.e. `label_encoding_function.pth` are listed below.
